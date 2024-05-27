@@ -359,7 +359,6 @@ define gui.history_text_ypos = 3
 define gui.history_text_width = 1110
 define gui.history_text_xalign = 0.0
 
-
 ## NVL-Mode ####################################################################
 ##
 ## The NVL-mode screen displays the dialogue spoken by NVL-mode characters.

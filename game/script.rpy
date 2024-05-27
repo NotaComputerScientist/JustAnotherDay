@@ -9,6 +9,7 @@ define e = Character("Eileen")
 # The game starts here.
 
 label start:
+    default preferences.text_cps = 48
 
     # Show a background. This uses a placeholder by default, but you can
     # add a file (named either "bg room.png" or "bg room.jpg") to the
@@ -24,7 +25,7 @@ label start:
 
     # These display lines of dialogue.
 
-    e ""
+    e "Hi, Patrick. How are you doing?"
 
     e "Once you add a story, pictures, and music, you can release it to the world!"
 
