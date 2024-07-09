@@ -1,0 +1,32 @@
+﻿I'm sorry, but an uncaught exception occurred.
+
+While running game code:
+  File "game/script.rpy", line 105, in script
+    show iCornelius at one
+  File "game/script.rpy", line 105, in <module>
+    show iCornelius at one
+NameError: name 'one' is not defined
+
+-- Full Traceback ------------------------------------------------------------
+
+Full traceback:
+  File "game/script.rpy", line 105, in script
+    show iCornelius at one
+  File "C:\Users\olivi\source\repos\renpy-8.2.3-sdk\renpy\ast.py", line 1113, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "C:\Users\olivi\source\repos\renpy-8.2.3-sdk\renpy\ast.py", line 1072, in show_imspec
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "C:\Users\olivi\source\repos\renpy-8.2.3-sdk\renpy\ast.py", line 1072, in <listcomp>
+    at_list = [ renpy.python.py_eval(i) for i in at_list ]
+  File "C:\Users\olivi\source\repos\renpy-8.2.3-sdk\renpy\python.py", line 1209, in py_eval
+    return py_eval_bytecode(code, globals, locals)
+  File "C:\Users\olivi\source\repos\renpy-8.2.3-sdk\renpy\python.py", line 1202, in py_eval_bytecode
+    return eval(bytecode, globals, locals)
+  File "game/script.rpy", line 105, in <module>
+    show iCornelius at one
+NameError: name 'one' is not defined
+
+Windows-10-10.0.22631 AMD64
+Ren'Py 8.2.3.24061702
+Just Another Day 1.0
+Tue Jul  9 16:10:01 2024
